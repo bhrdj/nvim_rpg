@@ -1,74 +1,66 @@
-# Nvim Dungeon Delver RPG
+NVIM DUNGEON DELVER RPG
+=======================
 
-A persistent text-based RPG for learning nvim keybindings and commands, designed to run inside Claude Code within a terminal inside nvim.
+A persistent text-based RPG for learning nvim keybindings, designed to run
+inside Claude Code within a terminal inside nvim.
 
-## How It Works
+PLAYER PREFERENCES
+------------------
+Screen size:       150 chars wide x 40 lines tall (max)
+Lesson size:       2-4 commands per lesson (small chunks)
+Lesson names:      Two words each (e.g., "Cardinal Movement", "Line Find")
+Timezone:          Asia/Vientiane (ICT, UTC+7)
+                   Don't run time commands - use system time, convert to +07
+File format:       ASCII tables, TSV for logs
 
-This RPG teaches nvim skills through dungeon exploration. Each room, puzzle, or encounter is solved using actual nvim commands. The game state persists across Claude sessions via markdown files.
+NVIM SETUP
+----------
+Platform:          Chromebook Crostini (Linux container)
+Terminal:          :terminal (opens Claude Code)
+File tree:         None yet (use built-in :Explore or add plugin later)
 
-### Starting/Resuming a Game
+SAFETY RULE
+-----------
+Always teach "how to get back" BEFORE teaching new navigation.
+Never leave user stranded away from Claude Code terminal.
 
-When starting Claude, say something like:
-- "Let's continue the nvim dungeon"
-- "Resume my nvim RPG"
-- "Read nvim_rpg/state01.md and continue the game"
+SCORING PROTOCOL
+----------------
+Wrong answer:      Retry with NEW exercise before moving on
+                   Interval drops one level (15m -> 5m)
+Right answer:      Interval increases one level (5m -> 15m)
+Interval levels:   5m -> 15m -> 45m -> 135m -> 405m -> MASTERED
 
-Claude will read the state file(s) and resume from where you left off.
+SPACED REPETITION
+-----------------
+AUTO - Claude prompts reviews without asking
+Reviews due when: current_time > last_reviewed + interval
+Skip MASTERED skills
 
-## File Roles
+STATE UPDATE RULE
+-----------------
+Batch all state.tsv edits into a single update. List all changes first,
+then apply them in one Edit tool call (not multiple calls per line).
 
-### `state01.md` (and `state02.md`, etc.)
-- **Purpose**: Complete game history and current status
-- **Contains**: Your location, inventory, HP, completed challenges, and full narrative log
-- **Rotation**: When a state file exceeds ~11,000 characters, the older history gets summarized and moved to the next numbered file, keeping recent events intact
+FILE ROLES
+----------
+state.tsv         TSV logs:
+                  - Lesson log (lesson_num, lesson_name, score, datetime, interval_before)
+                  - Review schedule (lesson_num, lesson_name, last_reviewed, interval)
 
-### `curriculum.md`
-- **Purpose**: Learning tracker and reference
-- **Contains**:
-  - Skills you've mastered (with the nvim commands)
-  - Skills queued for upcoming challenges
-  - Detailed explanations you can read offline or print
-- **Use**: Read ahead if you want to move faster, or review commands you've learned
+curriculum.txt    Static reference:
+                  - Lesson plan (all floors, numbered lessons, two-word names)
+                  - Inventory (mastered skills)
 
-### `README.md` (this file)
-- **Purpose**: Explains the system mechanics
-- **Contains**: How to start/resume, file purposes, game rules
+README.md         This file - rules and player preferences
 
-## Game Mechanics
+GAME MECHANICS
+--------------
+Dungeon:   Rooms contain nvim puzzles. Solve with correct commands.
+Character: HP (lost on mistakes), XP (gained on learning)
+Floors:    1=movement, 2=operators, 3=search, 4=windows, 5+=advanced
 
-### The Dungeon
-- Rooms contain nvim-themed puzzles and encounters
-- Doors unlock with correct keybinding knowledge
-- Monsters are defeated by executing the right commands
-- Treasure chests contain new command knowledge
-
-### Your Character
-- **HP**: Health points, lost when you make mistakes
-- **XP**: Experience gained by learning new commands
-- **Inventory**: Commands you've mastered (can use freely)
-- **Location**: Current room in the dungeon
-
-### Challenges
-Each challenge teaches a specific nvim concept:
-- Movement (h/j/k/l, w/b/e, gg/G, etc.)
-- Editing (i/a/o, d/c/y, p, etc.)
-- Navigation (/, ?, *, #, etc.)
-- Advanced (macros, marks, registers, etc.)
-
-### Difficulty Progression
-- **Floor 1**: Basic movement and insert mode
-- **Floor 2**: Text objects and operators
-- **Floor 3**: Search and navigation
-- **Floor 4**: Windows and buffers
-- **Floor 5+**: Advanced techniques
-
-## Tips
-
-1. **Practice in real nvim**: After learning a command in-game, try it in your actual nvim session
-2. **Read ahead**: Check curriculum.md to preview upcoming skills
-3. **Take notes**: The curriculum serves as your reference sheet
-4. **Commit progress**: Optionally commit state files to preserve across machines
-
----
-
-*Ready to delve? Just ask Claude to start or continue your adventure!*
+STARTING/RESUMING
+-----------------
+Say: "Let's play the nvim dungeon" or "Resume my nvim RPG"
+Claude reads state.tsv and curriculum.txt, continues from where you left off.

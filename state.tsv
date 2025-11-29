@@ -1,0 +1,41 @@
+LESSON LOG
+lesson_num	lesson_name	score	datetime	interval_before
+1.1	Cardinal Movement	PASS	2025-11-29 18:10 +07	5m
+1.2	Word Navigation	PASS	2025-11-29 18:12 +07	5m
+1.3	Line Edges	PASS	2025-11-29 18:12 +07	5m
+1.4	Count Modifiers	PASS	2025-11-29 18:12 +07	5m
+2.1	Core Operators	PASS	2025-11-29 18:15 +07	5m
+2.2	Text Objects	PASS	2025-11-29 18:17 +07	5m
+REVIEW	Mixed Review	PASS	2025-11-29 18:17 +07	5m
+3.1	Pattern Search	PASS	2025-11-29 18:25 +07	5m
+3.2	Cursor Search	PASS	2025-11-29 18:26 +07	5m
+3.3	Line Find	PASS	2025-11-29 18:27 +07	5m
+3.4	Find Repeat	SKIP	2025-11-29 18:28 +07	5m
+4.1	Split Windows	PASS	2025-11-29 18:50 +07	5m
+4.2	Window Navigation	PASS	2025-11-29 19:12 +07	5m
+4.3	Terminal Mode	PASS	2025-11-29 19:21 +07	5m
+REVIEW	Mixed Review	PASS	2025-11-29 19:26 +07	--
+REVIEW	Overdue Review	PASS	2025-11-29 19:48 +07	--
+REVIEW	Quick Review	PASS	2025-11-29 20:00 +07	--
+REVIEW	Finish Review	PASS	2025-11-29 20:05 +07	--
+5.1	Visual Mode	PASS	2025-11-29 20:20 +07	5m
+5.5	Register Power	PASS	2025-11-29 20:20 +07	5m
+
+REVIEW SCHEDULE
+Interval levels: 5m -> 15m -> 45m -> 135m -> 405m -> MASTERED
+lesson_num	lesson_name	last_reviewed	interval
+1.1	Cardinal Movement	MASTERED	--
+1.2	Word Navigation	2025-11-29 19:26 +07	45m
+1.3	Line Edges	2025-11-29 19:48 +07	45m
+1.4	Count Modifiers	2025-11-29 19:48 +07	45m
+2.1	Core Operators	2025-11-29 19:48 +07	45m
+2.2	Text Objects	2025-11-29 19:26 +07	45m
+3.1	Pattern Search	2025-11-29 20:00 +07	45m
+3.2	Cursor Search	2025-11-29 20:05 +07	45m
+3.3	Line Find	2025-11-29 20:00 +07	45m
+3.4	Find Repeat	2025-11-29 20:05 +07	45m
+4.1	Split Windows	2025-11-29 20:05 +07	15m
+4.2	Window Navigation	2025-11-29 20:00 +07	45m
+4.3	Terminal Mode	2025-11-29 20:05 +07	45m
+5.1	Visual Mode	2025-11-29 20:20 +07	5m
+5.5	Register Power	2025-11-29 20:20 +07	5m
