@@ -26,7 +26,7 @@ Floor 4: Workspace
   4.1  Split Windows        :sp :vs Ctrl-w s/v
   4.2  Window Navigation    Ctrl-w h/j/k/l
   4.3  Terminal Mode        :terminal, Ctrl-\ Ctrl-n (exit insert)
-  4.4  Buffer Commands      :e :bn :bp :ls :b{n}
+  4.4  Buffer Commands      :e :bn :bp :ls :b{n} :enew
   4.5  File Tree            (plugin-dependent: nvim-tree, neo-tree)
 
 Floor 5: Advanced
@@ -38,6 +38,6 @@ Floor 5: Advanced
 
 INVENTORY (Mastered Skills)
 ---------------------------
-hjkl, wbe, 0^$, counts, d/c/y, text objects, /?nN, *#, ft;,
+hjkl, wbe, 0^$, counts, d/c/y, text objects, /?nN :noh, *#, ft;,
 :sp/:vs, Ctrl-w hjkl, :terminal, Ctrl-\ Ctrl-n
-v, V, "a-z registers, Alt+v terminal paste
+v, V, "a-z registers, Alt+v terminal paste, :enew scratch buffer
