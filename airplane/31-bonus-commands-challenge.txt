@@ -1,0 +1,20 @@
+BONUS: LESS COMMON BUT USEFUL
+=============================
+
+Fill in the command/keys for each action:
+
+| Goal                              | Command |
+|-----------------------------------|---------|
+| Open file under cursor            | ___     |
+| Open file under cursor in split   | ___     |
+| Open file under cursor in vsplit  | ___     |
+| Return to previous jump location  | ___     |
+| Go forward in jump list           | ___     |
+| List jump list                    | ___     |
+| List change list                  | ___     |
+| Go to last change                 | ___     |
+| Go to next change                 | ___     |
+| Close all buffers                 | ___     |
+| Write all modified buffers        | ___     |
+| Quit all windows                  | ___     |
+| Save and quit all                 | ___     |

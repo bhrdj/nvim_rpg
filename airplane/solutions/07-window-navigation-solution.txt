@@ -1,0 +1,15 @@
+WINDOW NAVIGATION - SOLUTION
+============================
+
+| Goal                     | Keys     |
+|--------------------------|----------|
+| Move to window left      | Ctrl-w h |
+| Move to window down      | Ctrl-w j |
+| Move to window up        | Ctrl-w k |
+| Move to window right     | Ctrl-w l |
+| Cycle to next window     | Ctrl-w w |
+| Cycle to previous window | Ctrl-w W |
+| Go to top-left window    | Ctrl-w t |
+| Go to bottom-right window| Ctrl-w b |
+
+Note: hjkl works the same as cursor movement, just with Ctrl-w prefix

@@ -1,0 +1,26 @@
+SCENARIO: GRAB ERROR FROM CLAUDE OUTPUT
+=======================================
+
+Claude Code just output an error with a stack trace.
+You need to copy the file path and line number to your notes.
+
+1. Exit terminal insert mode
+   ___
+
+2. Search backwards for the filename pattern
+   ___
+
+3. Position cursor on the file path
+   ___
+
+4. Yank the filepath (it's in quotes)
+   ___
+
+5. Switch to your notes buffer
+   ___
+
+6. Paste the filepath
+   ___
+
+7. Go back to terminal to get more info
+   ___

@@ -1,0 +1,28 @@
+SCENARIO: COLLECT MULTIPLE PIECES
+=================================
+
+Claude's output has 3 things you need: a command, a filepath, code.
+
+1. Exit terminal mode
+   ___
+
+2. Find and yank the command into register 'c'
+   ___
+
+3. Find and yank the filepath into register 'f'
+   ___
+
+4. Find and yank the code block into register 'k'
+   ___
+
+5. Switch to buffer
+   ___
+
+6. Paste command from register
+   ___
+
+7. Paste filepath from register
+   ___
+
+8. Paste code from register
+   ___

@@ -1,0 +1,30 @@
+SCENARIO: SYSTEM CLIPBOARD INTEGRATION - SOLUTION
+=================================================
+
+PART A: Copy code to share in Slack
+
+1. Select a function with visual line mode
+   V
+   (then j/k to extend selection, or use motion like }})
+
+2. Yank to system clipboard
+   "+y
+
+
+PART B: Paste from web into nvim
+
+1. (You copied text from browser with Ctrl-C)
+
+2. In nvim normal mode, paste from clipboard
+   "+p
+
+3. In nvim insert mode, paste from clipboard
+   Ctrl-r +
+
+
+Bonus: To paste without triggering autoindent issues:
+   :set paste
+   "+p
+   :set nopaste
+
+Or use Ctrl-r Ctrl-o + in insert mode (literal paste)

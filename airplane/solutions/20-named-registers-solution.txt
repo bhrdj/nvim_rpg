@@ -1,0 +1,18 @@
+USING NAMED REGISTERS - SOLUTION
+================================
+
+| Goal                              | Keys       |
+|-----------------------------------|------------|
+| Yank line into register a         | "ayy       |
+| Append to register a              | "Ayy       |
+| Paste from register a             | "ap        |
+| Paste from register a (insert)    | Ctrl-r a   |
+| View all registers                | :reg       |
+
+Key insight: Capital letter APPENDS to the register!
+- "ayy  -> replaces register a
+- "Ayy  -> appends to register a
+
+This is powerful for collecting multiple pieces of text.
+
+:reg also shows as :registers or :di (display)

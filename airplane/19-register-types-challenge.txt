@@ -1,0 +1,18 @@
+REGISTER TYPES
+==============
+
+What register is used for each purpose?
+
+| Purpose                    | Register |
+|----------------------------|----------|
+| Default (unnamed)          | ___      |
+| System clipboard           | ___      |
+| Primary selection (X11)    | ___      |
+| Last yanked text           | ___      |
+| Black hole (discard)       | ___      |
+| Last inserted text         | ___      |
+| Current filename           | ___      |
+| Alternate filename         | ___      |
+| Last command               | ___      |
+| Last search pattern        | ___      |
+| Small delete (< 1 line)    | ___      |

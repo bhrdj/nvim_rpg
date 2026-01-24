@@ -1,0 +1,25 @@
+YANK COMBOS - SOLUTION
+======================
+
+| Goal                          | Keys  |
+|-------------------------------|-------|
+| Yank current line             | yy    |
+| Yank 5 lines                  | 5yy   |
+| Yank word                     | yw    |
+| Yank to end of line           | y$    |
+| Yank inside parentheses       | yi(   |
+| Yank inside quotes            | yi"   |
+| Yank a paragraph              | yap   |
+| Yank from here to line 50     | y50G  |
+| Yank from here to mark 'm'    | y'm   |
+
+Pattern: y + motion or text object
+
+Text objects:
+  i = inner (inside delimiters)
+  a = around (including delimiters)
+
+  yi( = inside parens
+  ya( = including parens
+  yiw = word only
+  yaw = word + surrounding space

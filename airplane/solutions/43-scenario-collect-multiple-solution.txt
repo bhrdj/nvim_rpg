@@ -1,0 +1,32 @@
+SCENARIO: COLLECT MULTIPLE PIECES - SOLUTION
+============================================
+
+1. Exit terminal mode
+   Ctrl-\ Ctrl-n
+
+2. Find and yank the command into register 'c'
+   /command_pattern
+   "cyy  (or visual select then "cy)
+
+3. Find and yank the filepath into register 'f'
+   /filepath_pattern
+   "fyi"  (if in quotes)  or  "fyiW
+
+4. Find and yank the code block into register 'k'
+   /```
+   j V /``` k "ky
+
+5. Switch to buffer
+   Ctrl-w w
+
+6. Paste command from register
+   "cp
+
+7. Paste filepath from register
+   "fp  (or in insert mode: Ctrl-r f)
+
+8. Paste code from register
+   "kp
+
+Check your work:
+   :reg cfk  (shows just those registers)

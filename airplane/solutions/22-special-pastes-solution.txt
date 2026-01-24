@@ -1,0 +1,16 @@
+SPECIAL PASTES - SOLUTION
+=========================
+
+| Goal                               | Keys           |
+|------------------------------------|----------------|
+| Paste before cursor                | P              |
+| Paste after cursor                 | p              |
+| Paste and auto-indent              | ]p  or  [p     |
+| Paste in insert mode from unnamed  | Ctrl-r "       |
+| Paste literally (no auto-indent)   | Ctrl-r Ctrl-o "|
+
+Notes:
+- ]p pastes and adjusts indent to match current line
+- [p pastes before and adjusts indent
+- Ctrl-r Ctrl-o " pastes literally (no autoindent triggers)
+- Ctrl-r Ctrl-r " pastes literally AND doesn't interpret special chars

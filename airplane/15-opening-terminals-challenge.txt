@@ -1,0 +1,11 @@
+OPENING TERMINALS
+=================
+
+Fill in the command for each action:
+
+| Goal                            | Command |
+|---------------------------------|---------|
+| Open terminal in current window | ___     |
+| Open terminal in horiz split    | ___     |
+| Open terminal in vert split     | ___     |
+| Open terminal in new tab        | ___     |

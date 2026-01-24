@@ -1,0 +1,25 @@
+REGISTER SHUTTLE
+================
+
+Move multiple pieces between terminal and buffer using registers.
+
+1. In terminal: yank error message to register 'e'
+   ___
+
+2. In terminal: yank file path to register 'p'
+   ___
+
+3. In terminal: yank code snippet to register 'c'
+   ___
+
+4. Switch to buffer window
+   ___
+
+5. Paste from register 'e'
+   ___
+
+6. Paste from register 'p' in insert mode
+   ___
+
+7. View all your registers to see what's stored
+   ___

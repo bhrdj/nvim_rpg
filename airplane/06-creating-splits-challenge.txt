@@ -1,0 +1,11 @@
+CREATING SPLITS
+===============
+
+How do you create each split type?
+
+| Split Type              | Command Mode | Normal Mode |
+|-------------------------|--------------|-------------|
+| Horizontal split        | ___          | ___         |
+| Vertical split          | ___          | ___         |
+| Horizontal split + file | ___          | --          |
+| Vertical split + file   | ___          | --          |

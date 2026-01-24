@@ -1,0 +1,32 @@
+SCENARIO: COMPARE TWO OUTPUTS - SOLUTION
+========================================
+
+1. Exit terminal mode
+   Ctrl-\ Ctrl-n
+
+2. Find first output, yank it
+   /output1_pattern
+   V (select lines) y
+   (or yank to register: "ay)
+
+3. Switch to buffer, paste it
+   Ctrl-w w
+   p
+
+4. Switch back to terminal
+   Ctrl-w w  (or Ctrl-^)
+
+5. Find second output, yank it
+   /output2_pattern
+   V (select lines) y
+
+6. Create vertical split in buffer area
+   Ctrl-w w  (go to buffer)
+   :vs  (or Ctrl-w v)
+
+7. Paste second output
+   p
+
+8. Now you can visually compare side-by-side
+   Use Ctrl-w h/l to switch between them
+   Use :diffthis in each window for diff mode

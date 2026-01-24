@@ -1,0 +1,24 @@
+BONUS: LESS COMMON BUT USEFUL - SOLUTION
+========================================
+
+| Goal                              | Command  |
+|-----------------------------------|----------|
+| Open file under cursor            | gf       |
+| Open file under cursor in split   | Ctrl-w f |
+| Open file under cursor in vsplit  | Ctrl-w F |
+| Return to previous jump location  | Ctrl-o   |
+| Go forward in jump list           | Ctrl-i   |
+| List jump list                    | :jumps   |
+| List change list                  | :changes |
+| Go to last change                 | g;       |
+| Go to next change                 | g,       |
+| Close all buffers                 | :%bd     |
+| Write all modified buffers        | :wa      |
+| Quit all windows                  | :qa      |
+| Save and quit all                 | :wqa     |
+
+Extra useful:
+  :wa   - write all
+  :qa   - quit all
+  :wqa  - write and quit all
+  :qa!  - force quit all (discard changes)

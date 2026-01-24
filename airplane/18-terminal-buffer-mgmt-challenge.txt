@@ -1,0 +1,11 @@
+TERMINAL BUFFER MANAGEMENT
+==========================
+
+Fill in the command/keys for each action:
+
+| Goal                            | Command |
+|---------------------------------|---------|
+| Close terminal (if job running) | ___     |
+| List buffers including terminals| ___     |
+| Switch to terminal buffer #5    | ___     |
+| Send Ctrl-C to terminal         | ___     |

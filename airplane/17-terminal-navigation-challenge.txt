@@ -1,0 +1,11 @@
+TERMINAL NAVIGATION
+===================
+
+You have a terminal buffer open. How do you:
+
+| Goal                         | Method |
+|------------------------------|--------|
+| Scroll up in terminal output | ___    |
+| Search terminal output       | ___    |
+| Copy text from terminal      | ___    |
+| Return to typing in terminal | ___    |

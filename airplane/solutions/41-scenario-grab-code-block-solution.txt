@@ -1,0 +1,35 @@
+SCENARIO: GRAB CODE BLOCK FROM CLAUDE - SOLUTION
+================================================
+
+1. Exit terminal insert mode
+   Ctrl-\ Ctrl-n
+
+2. Search for the opening ``` of the code block
+   /```  (or ?``` to search backwards)
+
+3. Move down one line (to first code line)
+   j
+
+4. Start visual line selection
+   V
+
+5. Search forward for closing ```
+   /```
+
+6. Move up one line (exclude the ```)
+   k
+
+7. Yank the selection
+   y
+
+8. Open new file in split
+   :vs newfile.py  (or :sp newfile.py)
+
+9. Paste the code
+   p
+
+One-liner alternative (after step 3):
+   V/```-1 then y
+
+   The -1 would need to be after the search, so:
+   V then /``` then k then y

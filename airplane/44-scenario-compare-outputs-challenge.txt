@@ -1,0 +1,27 @@
+SCENARIO: COMPARE TWO OUTPUTS
+=============================
+
+Terminal has two similar outputs. Compare them in buffers.
+
+1. Exit terminal mode
+   ___
+
+2. Find first output, yank it
+   ___
+
+3. Switch to buffer, paste it
+   ___
+
+4. Switch back to terminal
+   ___
+
+5. Find second output, yank it
+   ___
+
+6. Create vertical split in buffer area
+   ___
+
+7. Paste second output
+   ___
+
+8. Now you can visually compare side-by-side

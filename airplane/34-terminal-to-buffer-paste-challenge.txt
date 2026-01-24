@@ -1,0 +1,25 @@
+TERMINAL TO BUFFER PASTE
+========================
+
+You yanked text from terminal. Now paste it into a buffer.
+
+1. Switch to the buffer window (left)
+   ___
+
+2. Switch to buffer window (right)
+   ___
+
+3. Paste after cursor
+   ___
+
+4. Paste before cursor
+   ___
+
+5. Paste and match current indentation
+   ___
+
+6. Open new line below and paste
+   ___
+
+7. Open new line above and paste
+   ___

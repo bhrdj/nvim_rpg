@@ -1,0 +1,12 @@
+ALTERNATE BUFFER - SOLUTION
+===========================
+
+| Goal                              | Keys/Command      |
+|-----------------------------------|-------------------|
+| Switch to alternate buffer        | Ctrl-^  or  :b#   |
+| What register holds alt filename? | "#                |
+
+Note: Ctrl-^ is super useful for toggling between two files
+      Also works as Ctrl-6 on some keyboards
+
+The alternate buffer is the last buffer you were editing.

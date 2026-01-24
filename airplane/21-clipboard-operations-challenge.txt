@@ -1,0 +1,11 @@
+CLIPBOARD OPERATIONS
+====================
+
+Fill in the keys for each action:
+
+| Goal                               | Keys |
+|------------------------------------|------|
+| Yank to system clipboard           | ___  |
+| Paste from system clipboard (norm) | ___  |
+| Paste from system clipboard (ins)  | ___  |
+| Yank entire file to clipboard      | ___  |

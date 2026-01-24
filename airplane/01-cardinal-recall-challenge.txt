@@ -1,0 +1,9 @@
+CARDINAL RECALL
+===============
+
+What keys move the cursor:
+
+- Left:  ___
+- Down:  ___
+- Up:    ___
+- Right: ___

@@ -1,0 +1,26 @@
+TERMINAL TO BUFFER PASTE - SOLUTION
+===================================
+
+1. Switch to the buffer window (left)
+   Ctrl-w h
+
+2. Switch to buffer window (right)
+   Ctrl-w l
+
+3. Paste after cursor
+   p
+
+4. Paste before cursor
+   P
+
+5. Paste and match current indentation
+   ]p
+
+6. Open new line below and paste
+   o Ctrl-r "   (or o then Esc then p)
+
+7. Open new line above and paste
+   O Ctrl-r "   (or O then Esc then P)
+
+Tip: ]p is very useful when pasting code - it adjusts
+the indent to match the current line automatically.

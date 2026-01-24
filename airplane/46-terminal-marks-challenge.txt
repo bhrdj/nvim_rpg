@@ -1,0 +1,31 @@
+TERMINAL MARKS
+==============
+
+Use marks to jump around terminal output:
+
+1. Set mark 'a' at current position
+   ___
+
+2. Jump to top of terminal buffer
+   ___
+
+3. Set mark 't' here (top)
+   ___
+
+4. Jump to bottom of terminal buffer
+   ___
+
+5. Set mark 'b' here (bottom)
+   ___
+
+6. Jump back to mark 'a'
+   ___
+
+7. Jump to mark 't' (exact position)
+   ___
+
+8. Jump to line of mark 'b' (line only)
+   ___
+
+9. Yank from current position to mark 'a'
+   ___

@@ -1,0 +1,25 @@
+TERMINAL LINE OPERATIONS
+========================
+
+In terminal normal mode, cursor on line 50 of output:
+
+1. Yank this line only
+   ___
+
+2. Yank from here to line 60
+   ___
+
+3. Yank from here to end of terminal buffer
+   ___
+
+4. Yank from line 1 to here
+   ___
+
+5. Yank 20 lines starting from cursor
+   ___
+
+6. Go to line 100
+   ___
+
+7. Yank from here to a search match
+   ___

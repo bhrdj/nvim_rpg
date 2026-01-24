@@ -1,0 +1,25 @@
+TERMINAL SCROLL & SEARCH
+========================
+
+You're in a terminal with 500 lines of output.
+
+1. Exit terminal insert mode
+   ___
+
+2. Search backwards for "error"
+   ___
+
+3. Jump to next match
+   ___
+
+4. Jump to previous match
+   ___
+
+5. Go to the very top of terminal output
+   ___
+
+6. Go to the very bottom of terminal output
+   ___
+
+7. Search forward for a pattern
+   ___

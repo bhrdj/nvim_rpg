@@ -1,0 +1,10 @@
+PARAGRAPH & BLOCK MOVEMENT - SOLUTION
+=====================================
+
+| Goal                         | Key |
+|------------------------------|-----|
+| Next paragraph/blank line    | }   |
+| Previous paragraph/blank line| {   |
+| Jump to matching bracket     | %   |
+
+Note: % works on (), [], {}, and with matchit plugin on HTML tags, etc.

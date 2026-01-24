@@ -1,0 +1,16 @@
+TERMINAL MODE SWITCHING - SOLUTION
+==================================
+
+| Current Mode     | Goal                        | Keys          |
+|------------------|-----------------------------|---------------|
+| Terminal insert  | Exit to normal mode         | Ctrl-\ Ctrl-n |
+| Normal mode      | Enter terminal insert mode  | i             |
+| Normal mode      | Enter terminal insert @ end | A  (or a)     |
+
+IMPORTANT: Ctrl-\ Ctrl-n is the only way to exit terminal insert mode!
+
+Once in normal mode, you can:
+- Navigate the terminal output with hjkl
+- Search with / or ?
+- Yank text with y
+- Return to terminal insert with i or a

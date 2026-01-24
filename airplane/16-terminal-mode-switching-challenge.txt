@@ -1,0 +1,10 @@
+TERMINAL MODE SWITCHING
+=======================
+
+Fill in the keys for each action:
+
+| Current Mode     | Goal                        | Keys |
+|------------------|-----------------------------|------|
+| Terminal insert  | Exit to normal mode         | ___  |
+| Normal mode      | Enter terminal insert mode  | ___  |
+| Normal mode      | Enter terminal insert @ end | ___  |

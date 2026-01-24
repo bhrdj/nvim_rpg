@@ -1,0 +1,22 @@
+SCENARIO: MULTI-FILE EDITING
+============================
+
+You need to edit 3 files. Describe the commands for each step:
+
+1. Open main.py
+   ___
+
+2. Split and open utils.py to the right
+   ___
+
+3. Split below utils.py and open tests.py
+   ___
+
+4. Navigate back to main.py window
+   ___
+
+5. Copy a function (10 lines starting at cursor)
+   ___
+
+6. Go to utils.py and paste
+   ___

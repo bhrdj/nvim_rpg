@@ -1,0 +1,15 @@
+WINDOW NAVIGATION
+=================
+
+Fill in the Ctrl-w combo for each action:
+
+| Goal                     | Keys      |
+|--------------------------|-----------|
+| Move to window left      | Ctrl-w ___|
+| Move to window down      | Ctrl-w ___|
+| Move to window up        | Ctrl-w ___|
+| Move to window right     | Ctrl-w ___|
+| Cycle to next window     | Ctrl-w ___|
+| Cycle to previous window | Ctrl-w ___|
+| Go to top-left window    | Ctrl-w ___|
+| Go to bottom-right window| Ctrl-w ___|

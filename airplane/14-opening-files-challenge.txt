@@ -1,0 +1,13 @@
+OPENING FILES
+=============
+
+Fill in the command for each action:
+
+| Goal                           | Command |
+|--------------------------------|---------|
+| Open file in current window    | ___     |
+| Open file in horizontal split  | ___     |
+| Open file in vertical split    | ___     |
+| Open file in new tab           | ___     |
+| Edit a new unnamed buffer      | ___     |
+| Reload current file from disk  | ___     |

@@ -1,0 +1,9 @@
+CARDINAL RECALL - SOLUTION
+==========================
+
+- Left:  h
+- Down:  j
+- Up:    k
+- Right: l
+
+Mnemonic: "h" is leftmost, "l" is rightmost, "j" has a descender (goes down)

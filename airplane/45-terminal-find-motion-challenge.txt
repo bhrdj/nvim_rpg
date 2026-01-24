@@ -1,0 +1,25 @@
+TERMINAL FIND MOTIONS
+=====================
+
+In terminal normal mode, use find motions:
+
+1. Jump to next 'e' on this line
+   ___
+
+2. Jump to character before next ':'
+   ___
+
+3. Jump back to previous '/'
+   ___
+
+4. Repeat last find motion
+   ___
+
+5. Repeat last find motion backwards
+   ___
+
+6. Yank from cursor to next '"'
+   ___
+
+7. Delete from cursor to (not including) next ','
+   ___

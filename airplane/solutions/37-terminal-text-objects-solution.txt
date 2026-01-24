@@ -1,0 +1,33 @@
+TERMINAL TEXT OBJECTS - SOLUTION
+================================
+
+1. Word under cursor
+   yiw
+
+2. WORD under cursor (whitespace-delimited)
+   yiW
+
+3. Inside double quotes
+   yi"
+
+4. Inside single quotes
+   yi'
+
+5. Inside parentheses
+   yi(  or  yib
+
+6. Inside square brackets
+   yi[
+
+7. Inside curly braces
+   yi{  or  yiB
+
+8. Entire current line
+   yy
+
+Remember:
+  i = inner (not including delimiters)
+  a = around (including delimiters)
+
+So ya" yanks "hello" including the quotes,
+while yi" yanks just hello.

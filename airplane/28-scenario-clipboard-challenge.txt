@@ -1,0 +1,21 @@
+SCENARIO: SYSTEM CLIPBOARD INTEGRATION
+=======================================
+
+PART A: Copy code to share in Slack
+
+1. Select a function with visual line mode
+   ___
+
+2. Yank to system clipboard
+   ___
+
+
+PART B: Paste from web into nvim
+
+1. (You copied text from browser with Ctrl-C)
+
+2. In nvim normal mode, paste from clipboard
+   ___
+
+3. In nvim insert mode, paste from clipboard
+   ___

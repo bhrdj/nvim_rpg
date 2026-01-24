@@ -1,0 +1,25 @@
+TERMINAL VISUAL YANK
+====================
+
+You're in terminal normal mode, cursor on a line you want.
+
+1. Select just this line (visual line mode)
+   ___
+
+2. Extend selection down 5 more lines
+   ___
+
+3. Yank the selection
+   ___
+
+4. Select a single word under cursor
+   ___
+
+5. Select from cursor to end of line
+   ___
+
+6. Select a rectangular block (column)
+   ___
+
+7. Yank inside quotes on this line
+   ___

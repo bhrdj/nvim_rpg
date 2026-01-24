@@ -1,0 +1,17 @@
+OPENING TERMINALS - SOLUTION
+============================
+
+| Goal                            | Command                    |
+|---------------------------------|----------------------------|
+| Open terminal in current window | :terminal                  |
+| Open terminal in horiz split    | :sp | terminal             |
+| Open terminal in vert split     | :vs | terminal             |
+| Open terminal in new tab        | :tabe | terminal           |
+
+Alternative syntax:
+  :split | terminal
+  :vsplit | terminal
+  :new | terminal    (new horizontal split)
+  :vnew | terminal   (new vertical split)
+
+Short form: :term instead of :terminal

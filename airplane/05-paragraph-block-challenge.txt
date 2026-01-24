@@ -1,0 +1,10 @@
+PARAGRAPH & BLOCK MOVEMENT
+==========================
+
+Fill in the key for each motion:
+
+| Goal                         | Key |
+|------------------------------|-----|
+| Next paragraph/blank line    | ___ |
+| Previous paragraph/blank line| ___ |
+| Jump to matching bracket     | ___ |

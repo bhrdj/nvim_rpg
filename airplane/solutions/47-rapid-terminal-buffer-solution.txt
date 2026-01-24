@@ -1,0 +1,23 @@
+RAPID FIRE: TERMINAL-BUFFER - SOLUTION
+======================================
+
+1.  Exit terminal insert mode:      Ctrl-\ Ctrl-n
+2.  Enter terminal insert mode:     i  (or a)
+3.  Go to window left:              Ctrl-w h
+4.  Go to window right:             Ctrl-w l
+5.  Yank line in terminal:          yy
+6.  Paste in terminal insert:       Ctrl-r "
+7.  Paste register 'a' in insert:   Ctrl-r a
+8.  Visual select in terminal:      v  (or V, Ctrl-v)
+9.  Yank inside quotes:             yi"
+10. Search backwards:               ?pattern
+11. Yank to register 'x':           "xyy  (or "x{motion})
+12. Paste from register 'x':        "xp
+13. Go to top of terminal output:   gg
+14. Go to bottom of terminal output:G
+15. Set mark 'm':                   mm
+16. Jump to mark 'm':               `m  (or 'm)
+17. Yank 10 lines:                  10yy
+18. Yank to end of line:            y$
+19. Open new line and paste:        o Esc p  (or o Ctrl-r ")
+20. Close terminal window:          :q  (or :bd!)

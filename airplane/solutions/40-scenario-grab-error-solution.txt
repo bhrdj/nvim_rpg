@@ -1,0 +1,27 @@
+SCENARIO: GRAB ERROR FROM CLAUDE OUTPUT - SOLUTION
+==================================================
+
+1. Exit terminal insert mode
+   Ctrl-\ Ctrl-n
+
+2. Search backwards for the filename pattern
+   ?\.py  (or ?Error or ?filename)
+
+3. Position cursor on the file path
+   n/N to navigate, then w/b/f to position
+
+4. Yank the filepath (it's in quotes)
+   yi"
+
+5. Switch to your notes buffer
+   Ctrl-w h  (or Ctrl-w w)
+
+6. Paste the filepath
+   p
+
+7. Go back to terminal to get more info
+   Ctrl-w l  (or Ctrl-^)
+
+Alternative: Use register to hold it
+   "fyi"  (yank to register f for file)
+   Then paste with "fp

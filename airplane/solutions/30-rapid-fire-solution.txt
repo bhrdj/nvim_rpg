@@ -1,0 +1,23 @@
+RAPID FIRE QUIZ - SOLUTION
+==========================
+
+1.  Split vertical:           :vs  or  Ctrl-w v
+2.  Go to window right:       Ctrl-w l
+3.  List buffers:             :ls
+4.  Next buffer:              :bn
+5.  Exit terminal mode:       Ctrl-\ Ctrl-n
+6.  Yank to clipboard:        "+y
+7.  Paste from clipboard:     "+p
+8.  Close window:             :q  or  Ctrl-w c
+9.  Resize window taller:     Ctrl-w +
+10. Equalize windows:         Ctrl-w =
+11. Alternate buffer:         Ctrl-^  or  :b#
+12. Delete buffer:            :bd
+13. Open terminal:            :terminal  or  :term
+14. View registers:           :reg
+15. Paste register 'a':       "ap
+16. Black hole delete:        "_d
+17. Last yanked text register:"0
+18. Go to buffer 2:           :b2
+19. Close other windows:      :only  or  Ctrl-w o
+20. Scroll half-page down:    Ctrl-d

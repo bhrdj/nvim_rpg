@@ -1,0 +1,9 @@
+ALTERNATE BUFFER
+================
+
+Fill in the keys/command for each action:
+
+| Goal                              | Keys/Command    |
+|-----------------------------------|-----------------|
+| Switch to alternate buffer        | ___ (two ways)  |
+| What register holds alt filename? | ___             |

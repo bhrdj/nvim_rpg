@@ -1,0 +1,16 @@
+WORD HOPPING - SOLUTION
+=======================
+
+| Goal                             | Key |
+|----------------------------------|-----|
+| Next word start                  | w   |
+| Previous word start              | b   |
+| End of current word              | e   |
+| Next WORD (whitespace-delimited) | W   |
+| Previous WORD                    | B   |
+| End of WORD                      | E   |
+
+Note: lowercase = "word" (punctuation is a boundary)
+      uppercase = "WORD" (only whitespace is a boundary)
+
+Example: "foo-bar" is 3 words (foo, -, bar) but 1 WORD

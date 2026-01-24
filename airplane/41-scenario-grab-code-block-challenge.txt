@@ -1,0 +1,31 @@
+SCENARIO: GRAB CODE BLOCK FROM CLAUDE
+=====================================
+
+Claude just wrote a code block you want to save to a file.
+
+1. Exit terminal insert mode
+   ___
+
+2. Search for the opening ``` of the code block
+   ___
+
+3. Move down one line (to first code line)
+   ___
+
+4. Start visual line selection
+   ___
+
+5. Search forward for closing ```
+   ___
+
+6. Move up one line (exclude the ```)
+   ___
+
+7. Yank the selection
+   ___
+
+8. Open new file in split
+   ___
+
+9. Paste the code
+   ___

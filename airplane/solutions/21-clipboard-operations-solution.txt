@@ -1,0 +1,19 @@
+CLIPBOARD OPERATIONS - SOLUTION
+===============================
+
+| Goal                               | Keys       |
+|------------------------------------|------------|
+| Yank to system clipboard           | "+y        |
+| Paste from system clipboard (norm) | "+p        |
+| Paste from system clipboard (ins)  | Ctrl-r +   |
+| Yank entire file to clipboard      | gg"+yG     |
+
+Breakdown of gg"+yG:
+  gg   - go to top of file
+  "+y  - yank to clipboard...
+  G    - ...to end of file
+
+Alternative for whole file: :%y+
+  :    - command mode
+  %    - whole file range
+  y+   - yank to + register

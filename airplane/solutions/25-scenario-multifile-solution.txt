@@ -1,0 +1,33 @@
+SCENARIO: MULTI-FILE EDITING - SOLUTION
+=======================================
+
+1. Open main.py
+   :e main.py
+
+2. Split and open utils.py to the right
+   :vs utils.py
+   (or: Ctrl-w v then :e utils.py)
+
+3. Split below utils.py and open tests.py
+   Ctrl-w l        (go to utils.py window first)
+   :sp tests.py
+   (or: Ctrl-w s then :e tests.py)
+
+4. Navigate back to main.py window
+   Ctrl-w h
+   (or: Ctrl-w w to cycle through windows)
+
+5. Copy a function (10 lines starting at cursor)
+   10yy
+   (or: V9jy for visual selection)
+
+6. Go to utils.py and paste
+   Ctrl-w l
+   p
+
+Final layout:
++----------+----------+
+|          | utils.py |
+| main.py  +----------+
+|          | tests.py |
++----------+----------+

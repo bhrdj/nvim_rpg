@@ -1,0 +1,26 @@
+BUFFER TO TERMINAL - SOLUTION
+=============================
+
+1. Yank current line in buffer
+   yy
+
+2. Yank a visual selection
+   (after selecting with v/V)  y
+
+3. Switch to terminal window
+   Ctrl-w l  (or Ctrl-w w to cycle)
+
+4. Enter terminal insert mode
+   i  (or a, or A)
+
+5. Paste from default register (in terminal insert)
+   Ctrl-r "
+
+6. Paste from register 'a' (in terminal insert)
+   Ctrl-r a
+
+7. Paste from clipboard (in terminal insert)
+   Ctrl-r +
+
+Note: In terminal INSERT mode, you can't use p/P.
+You must use Ctrl-r {register} to paste.

@@ -1,0 +1,16 @@
+OPENING FILES - SOLUTION
+========================
+
+| Goal                           | Command           |
+|--------------------------------|-------------------|
+| Open file in current window    | :e filename       |
+| Open file in horizontal split  | :sp filename      |
+| Open file in vertical split    | :vs filename      |
+| Open file in new tab           | :tabe filename    |
+| Edit a new unnamed buffer      | :enew             |
+| Reload current file from disk  | :e!  or  :edit!   |
+
+Shortcuts:
+  :e  = :edit
+  :sp = :split
+  :vs = :vsplit

@@ -1,0 +1,23 @@
+SCENARIO: TERMINAL + BUFFER WORKFLOW - SOLUTION
+================================================
+
+1. Open a terminal in bottom split
+   :sp | terminal
+   (or: Ctrl-w s then :terminal)
+   (or: :below terminal for explicit bottom placement)
+
+2. Run pytest
+   (you're in terminal insert mode, just type)
+   pytest
+
+3. See error on line 42 of test_api.py, exit terminal mode
+   Ctrl-\ Ctrl-n
+
+4. Go back to code window (above)
+   Ctrl-w k
+   (or: Ctrl-w w to cycle)
+
+5. Open test_api.py and jump to line 42
+   :e test_api.py
+   42G
+   (or combined: :e +42 test_api.py)

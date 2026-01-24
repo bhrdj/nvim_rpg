@@ -1,0 +1,14 @@
+BUFFER BASICS
+=============
+
+Fill in the command for each action:
+
+| Goal                              | Command         |
+|-----------------------------------|-----------------|
+| List all buffers                  | ___             |
+| Go to next buffer                 | ___             |
+| Go to previous buffer             | ___             |
+| Go to buffer #3                   | ___ (two ways)  |
+| Go to buffer by name (partial)    | ___             |
+| Delete/close buffer               | ___             |
+| Delete buffer (force)             | ___             |

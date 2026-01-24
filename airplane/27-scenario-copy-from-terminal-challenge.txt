@@ -1,0 +1,19 @@
+SCENARIO: COPY FROM TERMINAL TO BUFFER
+=======================================
+
+You ran a command and need to copy its output:
+
+1. Terminal shows output you need. Enter normal mode.
+   ___
+
+2. Find the text with search
+   ___
+
+3. Yank 3 lines to register t
+   ___
+
+4. Switch to your code buffer
+   ___
+
+5. Paste from register t
+   ___

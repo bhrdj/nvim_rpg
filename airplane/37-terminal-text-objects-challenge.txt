@@ -1,0 +1,28 @@
+TERMINAL TEXT OBJECTS
+=====================
+
+In terminal normal mode, yank these patterns:
+
+1. Word under cursor
+   ___
+
+2. WORD under cursor (whitespace-delimited)
+   ___
+
+3. Inside double quotes
+   ___
+
+4. Inside single quotes
+   ___
+
+5. Inside parentheses
+   ___
+
+6. Inside square brackets
+   ___
+
+7. Inside curly braces
+   ___
+
+8. Entire current line
+   ___

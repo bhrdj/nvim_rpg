@@ -1,0 +1,16 @@
+SCENARIO: BUFFER CLEANUP
+========================
+
+You have 8 buffers open and need to clean up:
+
+1. List all buffers
+   ___
+
+2. Close buffer #3
+   ___
+
+3. Close all buffers except current
+   ___
+
+4. Close current buffer but keep window open
+   ___

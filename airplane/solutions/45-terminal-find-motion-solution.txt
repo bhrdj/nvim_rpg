@@ -1,0 +1,35 @@
+TERMINAL FIND MOTIONS - SOLUTION
+================================
+
+1. Jump to next 'e' on this line
+   fe
+
+2. Jump to character before next ':'
+   t:
+
+3. Jump back to previous '/'
+   F/
+
+4. Repeat last find motion
+   ;
+
+5. Repeat last find motion backwards
+   ,
+
+6. Yank from cursor to next '"'
+   yf"
+
+7. Delete from cursor to (not including) next ','
+   dt,
+
+Summary:
+  f = find (on the character)
+  t = till (before the character)
+  F = find backwards
+  T = till backwards
+  ; = repeat forward
+  , = repeat backward
+
+These work with operators:
+  df. = delete to and including next .
+  yt) = yank to (not including) next )

@@ -1,0 +1,26 @@
+REGISTER SHUTTLE - SOLUTION
+===========================
+
+1. In terminal: yank error message to register 'e'
+   (position cursor, then)  "eyy  or  V"ey
+
+2. In terminal: yank file path to register 'p'
+   (position on path, then)  "pyi"  or  "pyiW
+
+3. In terminal: yank code snippet to register 'c'
+   (visual select, then)  "cy
+
+4. Switch to buffer window
+   Ctrl-w w  (or Ctrl-w h/l)
+
+5. Paste from register 'e'
+   "ep
+
+6. Paste from register 'p' in insert mode
+   Ctrl-r p
+
+7. View all your registers to see what's stored
+   :reg
+
+Pro tip: Use meaningful register letters.
+e=error, p=path, c=code, f=file, etc.

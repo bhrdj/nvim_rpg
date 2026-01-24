@@ -1,0 +1,12 @@
+USING NAMED REGISTERS
+=====================
+
+Fill in the keys for each action:
+
+| Goal                              | Keys |
+|-----------------------------------|------|
+| Yank line into register a         | ___  |
+| Append to register a              | ___  |
+| Paste from register a             | ___  |
+| Paste from register a (insert)    | ___  |
+| View all registers                | ___  |

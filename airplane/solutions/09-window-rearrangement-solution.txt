@@ -1,0 +1,14 @@
+WINDOW REARRANGEMENT - SOLUTION
+===============================
+
+| Goal                            | Keys     |
+|---------------------------------|----------|
+| Rotate windows downward/right   | Ctrl-w r |
+| Rotate windows upward/left      | Ctrl-w R |
+| Move window to far left         | Ctrl-w H |
+| Move window to far bottom       | Ctrl-w J |
+| Move window to far top          | Ctrl-w K |
+| Move window to far right        | Ctrl-w L |
+| Move window to new tab          | Ctrl-w T |
+
+Note: Capital HJKL moves the window itself (not just cursor)

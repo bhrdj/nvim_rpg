@@ -1,0 +1,19 @@
+SCENARIO: TERMINAL + BUFFER WORKFLOW
+=====================================
+
+You're coding and need to run tests:
+
+1. Open a terminal in bottom split
+   ___
+
+2. Run pytest
+   ___
+
+3. See error on line 42 of test_api.py, exit terminal mode
+   ___
+
+4. Go back to code window (above)
+   ___
+
+5. Open test_api.py and jump to line 42
+   ___

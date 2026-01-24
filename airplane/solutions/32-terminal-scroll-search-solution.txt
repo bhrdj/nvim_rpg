@@ -1,0 +1,26 @@
+TERMINAL SCROLL & SEARCH - SOLUTION
+===================================
+
+1. Exit terminal insert mode
+   Ctrl-\ Ctrl-n
+
+2. Search backwards for "error"
+   ?error
+
+3. Jump to next match
+   n
+
+4. Jump to previous match
+   N
+
+5. Go to the very top of terminal output
+   gg
+
+6. Go to the very bottom of terminal output
+   G
+
+7. Search forward for a pattern
+   /pattern
+
+Note: After exiting terminal mode, it behaves like a normal buffer.
+All standard vim navigation and search commands work.

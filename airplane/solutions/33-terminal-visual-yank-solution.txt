@@ -1,0 +1,26 @@
+TERMINAL VISUAL YANK - SOLUTION
+===============================
+
+1. Select just this line (visual line mode)
+   V
+
+2. Extend selection down 5 more lines
+   5j
+
+3. Yank the selection
+   y
+
+4. Select a single word under cursor
+   viw
+
+5. Select from cursor to end of line
+   v$  (or just use y$ without visual)
+
+6. Select a rectangular block (column)
+   Ctrl-v  (then move with hjkl)
+
+7. Yank inside quotes on this line
+   yi"
+
+Note: Visual mode works the same in terminal normal mode
+as in any buffer. The key is getting to normal mode first.

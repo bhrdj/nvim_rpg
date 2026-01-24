@@ -1,0 +1,18 @@
+DELETE TO REGISTER - SOLUTION
+=============================
+
+| Goal                              | Keys    |
+|-----------------------------------|---------|
+| Delete line into register d       | "ddd    |
+| Delete word into register w       | "wdw    |
+| Delete without affecting registers| "_d     |
+
+Pattern: "{register}{operator}{motion}
+
+The black hole register "_ is useful when you want to delete
+something without losing what's in your unnamed register.
+
+Example workflow:
+  yy       -> yank a line
+  "_dd     -> delete current line (yank preserved!)
+  p        -> paste the originally yanked line

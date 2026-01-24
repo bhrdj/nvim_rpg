@@ -1,0 +1,22 @@
+SCENARIO: COPY FROM TERMINAL TO BUFFER - SOLUTION
+==================================================
+
+1. Terminal shows output you need. Enter normal mode.
+   Ctrl-\ Ctrl-n
+
+2. Find the text with search
+   /pattern
+   (then n/N to navigate matches)
+
+3. Yank 3 lines to register t
+   "t3yy
+   (or: V2j"ty for visual selection)
+
+4. Switch to your code buffer
+   Ctrl-w w       (cycle windows)
+   or: :b filename
+   or: Ctrl-^     (alternate buffer)
+
+5. Paste from register t
+   "tp
+   (or in insert mode: Ctrl-r t)

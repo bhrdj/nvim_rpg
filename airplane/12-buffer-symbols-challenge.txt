@@ -1,0 +1,14 @@
+BUFFER SYMBOLS
+==============
+
+In :ls output, what do these symbols mean?
+
+| Symbol | Meaning |
+|--------|---------|
+| %      | ___     |
+| #      | ___     |
+| a      | ___     |
+| h      | ___     |
+| +      | ___     |
+| -      | ___     |
+| =      | ___     |

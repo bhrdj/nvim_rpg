@@ -1,0 +1,16 @@
+YANK COMBOS
+===========
+
+Fill in the keys for each action:
+
+| Goal                          | Keys |
+|-------------------------------|------|
+| Yank current line             | ___  |
+| Yank 5 lines                  | ___  |
+| Yank word                     | ___  |
+| Yank to end of line           | ___  |
+| Yank inside parentheses       | ___  |
+| Yank inside quotes            | ___  |
+| Yank a paragraph              | ___  |
+| Yank from here to line 50     | ___  |
+| Yank from here to mark 'm'    | ___  |

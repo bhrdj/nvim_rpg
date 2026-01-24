@@ -1,0 +1,10 @@
+CLOSING WINDOWS
+===============
+
+Fill in the command for each action:
+
+| Goal                        | Command         |
+|-----------------------------|-----------------|
+| Close current window        | ___ (two ways)  |
+| Close all other windows     | ___             |
+| Close current window (force)| ___             |

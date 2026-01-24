@@ -1,0 +1,35 @@
+TERMINAL MARKS - SOLUTION
+=========================
+
+1. Set mark 'a' at current position
+   ma
+
+2. Jump to top of terminal buffer
+   gg
+
+3. Set mark 't' here (top)
+   mt
+
+4. Jump to bottom of terminal buffer
+   G
+
+5. Set mark 'b' here (bottom)
+   mb
+
+6. Jump back to mark 'a'
+   `a  (exact position)
+   'a  (beginning of line)
+
+7. Jump to mark 't' (exact position)
+   `t
+
+8. Jump to line of mark 'b' (line only)
+   'b
+
+9. Yank from current position to mark 'a'
+   y`a
+
+Marks are powerful for:
+- Bookmarking spots in long terminal output
+- Yanking between marked positions
+- Quick navigation without searching

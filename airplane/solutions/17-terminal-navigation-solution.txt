@@ -1,0 +1,18 @@
+TERMINAL NAVIGATION - SOLUTION
+==============================
+
+| Goal                         | Method                              |
+|------------------------------|-------------------------------------|
+| Scroll up in terminal output | Ctrl-\ Ctrl-n, then Ctrl-u or k     |
+| Search terminal output       | Ctrl-\ Ctrl-n, then / or ?          |
+| Copy text from terminal      | Ctrl-\ Ctrl-n, navigate, v/V, y     |
+| Return to typing in terminal | i or a                              |
+
+Full workflow to copy from terminal:
+1. Ctrl-\ Ctrl-n     (exit insert mode)
+2. /pattern          (search for text)
+3. V                 (visual line mode)
+4. j/k               (select lines)
+5. y                 (yank)
+6. Ctrl-w w          (go to other window)
+7. p                 (paste)

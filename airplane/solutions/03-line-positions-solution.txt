@@ -1,0 +1,11 @@
+LINE POSITIONS - SOLUTION
+=========================
+
+| Goal                    | Key |
+|-------------------------|-----|
+| First column (col 0)    | 0   |
+| First non-blank char    | ^   |
+| End of line             | $   |
+| Go to column 15         | 15| |
+
+Note: ^ and $ match regex anchors for start/end of line

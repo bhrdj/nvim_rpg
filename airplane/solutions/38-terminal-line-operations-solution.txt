@@ -1,0 +1,28 @@
+TERMINAL LINE OPERATIONS - SOLUTION
+===================================
+
+1. Yank this line only
+   yy
+
+2. Yank from here to line 60
+   y60G
+
+3. Yank from here to end of terminal buffer
+   yG
+
+4. Yank from line 1 to here
+   ygg
+
+5. Yank 20 lines starting from cursor
+   20yy  (or y19j)
+
+6. Go to line 100
+   100G  (or :100)
+
+7. Yank from here to a search match
+   y/pattern
+
+   This yanks from cursor to (not including) the match.
+
+   Or use visual mode:
+   v/pattern then y

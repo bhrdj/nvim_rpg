@@ -1,0 +1,27 @@
+SCENARIO: SEND CODE SNIPPET TO CLAUDE - SOLUTION
+================================================
+
+1. In buffer, go to start of function
+   [[  (prev function)  or  /def  or  /function
+
+2. Start visual line selection
+   V
+
+3. Select to end of function (to closing brace)
+   ]]  (next function end)  or  /^}  or  %
+
+4. Yank the selection
+   y
+
+5. Switch to terminal window
+   Ctrl-w w  (or Ctrl-w l)
+
+6. Enter terminal insert mode at the prompt
+   i  (or A to append at end)
+
+7. Paste the code
+   Ctrl-r "
+
+Tip: If pasting a lot of code, you might want to
+use Ctrl-r Ctrl-o " for literal paste (avoids
+autoindent issues in some terminals).

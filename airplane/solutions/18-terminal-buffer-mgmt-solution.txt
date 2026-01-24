@@ -1,0 +1,15 @@
+TERMINAL BUFFER MANAGEMENT - SOLUTION
+=====================================
+
+| Goal                            | Command                         |
+|---------------------------------|---------------------------------|
+| Close terminal (if job running) | :bd!                            |
+| List buffers including terminals| :ls  or  :buffers               |
+| Switch to terminal buffer #5    | :b5                             |
+| Send Ctrl-C to terminal         | (in insert mode) just Ctrl-C    |
+
+Notes:
+- Terminal buffers show as "term://" in :ls
+- :bd without ! will fail if terminal job is running
+- To kill terminal job and close: :bd!
+- Terminal buffers can be switched like any other buffer

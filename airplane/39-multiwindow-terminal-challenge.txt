@@ -1,0 +1,28 @@
+MULTI-WINDOW TERMINAL WORKFLOW
+==============================
+
+Setup: terminal on right, code buffer on left
+
+1. From buffer, go to terminal window
+   ___
+
+2. From terminal, go to buffer window
+   ___
+
+3. Make terminal window wider
+   ___
+
+4. Make buffer window taller
+   ___
+
+5. Equalize window sizes
+   ___
+
+6. Maximize terminal window temporarily
+   ___
+
+7. Close terminal window (keep buffer)
+   ___
+
+8. Reopen terminal in bottom split
+   ___

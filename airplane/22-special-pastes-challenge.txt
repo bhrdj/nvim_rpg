@@ -1,0 +1,12 @@
+SPECIAL PASTES
+==============
+
+Fill in the keys for each action:
+
+| Goal                               | Keys |
+|------------------------------------|------|
+| Paste before cursor                | ___  |
+| Paste after cursor                 | ___  |
+| Paste and auto-indent              | ___  |
+| Paste in insert mode from unnamed  | ___  |
+| Paste literally (no auto-indent)   | ___  |

@@ -1,0 +1,14 @@
+WINDOW REARRANGEMENT
+====================
+
+Fill in the Ctrl-w combo for each action:
+
+| Goal                            | Keys      |
+|---------------------------------|-----------|
+| Rotate windows downward/right   | Ctrl-w ___|
+| Rotate windows upward/left      | Ctrl-w ___|
+| Move window to far left         | Ctrl-w ___|
+| Move window to far bottom       | Ctrl-w ___|
+| Move window to far top          | Ctrl-w ___|
+| Move window to far right        | Ctrl-w ___|
+| Move window to new tab          | Ctrl-w ___|

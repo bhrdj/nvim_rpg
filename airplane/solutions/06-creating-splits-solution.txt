@@ -1,0 +1,11 @@
+CREATING SPLITS - SOLUTION
+==========================
+
+| Split Type              | Command Mode   | Normal Mode |
+|-------------------------|----------------|-------------|
+| Horizontal split        | :sp or :split  | Ctrl-w s    |
+| Vertical split          | :vs or :vsplit | Ctrl-w v    |
+| Horizontal split + file | :sp filename   | --          |
+| Vertical split + file   | :vs filename   | --          |
+
+Mnemonic: s=split (horizontal), v=vertical

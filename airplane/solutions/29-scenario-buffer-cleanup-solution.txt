@@ -1,0 +1,30 @@
+SCENARIO: BUFFER CLEANUP - SOLUTION
+===================================
+
+1. List all buffers
+   :ls
+   (or :buffers)
+
+2. Close buffer #3
+   :bd 3
+   (or :3bd)
+
+3. Close all buffers except current
+   :%bd | e#
+
+   Breakdown:
+   :%bd  - delete all buffers
+   |     - then
+   e#    - reopen alternate (which was current)
+
+   (Some setups have :BufOnly or :Bonly plugin command)
+
+4. Close current buffer but keep window open
+   :bp | bd#
+
+   Breakdown:
+   :bp   - go to previous buffer
+   |     - then
+   bd#   - delete alternate buffer (which was current)
+
+   This keeps the window with the previous buffer showing.

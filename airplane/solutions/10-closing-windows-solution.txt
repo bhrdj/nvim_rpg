@@ -1,0 +1,11 @@
+CLOSING WINDOWS - SOLUTION
+==========================
+
+| Goal                        | Command              |
+|-----------------------------|----------------------|
+| Close current window        | :q  or  Ctrl-w c     |
+| Close all other windows     | :only  or  Ctrl-w o  |
+| Close current window (force)| :q!                  |
+
+Note: :q quits vim if it's the last window
+      Ctrl-w c closes window but won't quit vim

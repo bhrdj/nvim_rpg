@@ -1,0 +1,25 @@
+BUFFER TO TERMINAL
+==================
+
+You have code in a buffer. Send it to the terminal.
+
+1. Yank current line in buffer
+   ___
+
+2. Yank a visual selection
+   ___
+
+3. Switch to terminal window
+   ___
+
+4. Enter terminal insert mode
+   ___
+
+5. Paste from default register (in terminal insert)
+   ___
+
+6. Paste from register 'a' (in terminal insert)
+   ___
+
+7. Paste from clipboard (in terminal insert)
+   ___

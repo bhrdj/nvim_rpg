@@ -1,0 +1,31 @@
+MULTI-WINDOW TERMINAL WORKFLOW - SOLUTION
+=========================================
+
+1. From buffer, go to terminal window
+   Ctrl-w l  (if terminal is right)
+   Ctrl-w w  (cycle to next)
+
+2. From terminal, go to buffer window
+   Ctrl-w h  (if buffer is left)
+   Ctrl-w w  (cycle)
+
+3. Make terminal window wider
+   Ctrl-w >  (repeat or use count: 10 Ctrl-w >)
+
+4. Make buffer window taller
+   (go to buffer first)  Ctrl-w +
+
+5. Equalize window sizes
+   Ctrl-w =
+
+6. Maximize terminal window temporarily
+   Ctrl-w _  (height)
+   Ctrl-w |  (width)
+   (Ctrl-w = to restore)
+
+7. Close terminal window (keep buffer)
+   (in terminal window)  :q  or  :bd!
+
+8. Reopen terminal in bottom split
+   (from buffer)  :below sp | terminal
+   or: :sp | terminal  then  Ctrl-w J

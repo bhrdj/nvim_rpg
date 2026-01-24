@@ -1,0 +1,16 @@
+WINDOW RESIZING
+===============
+
+Fill in the keys for each action:
+
+| Goal                         | Keys      |
+|------------------------------|-----------|
+| Increase height              | Ctrl-w ___|
+| Decrease height              | Ctrl-w ___|
+| Increase width               | Ctrl-w ___|
+| Decrease width               | Ctrl-w ___|
+| Equalize all windows         | Ctrl-w ___|
+| Maximize current height      | Ctrl-w ___|
+| Maximize current width       | Ctrl-w ___|
+| Set height to 10 lines       | ___       |
+| Set width to 40 cols         | ___       |

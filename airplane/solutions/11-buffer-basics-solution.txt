@@ -1,0 +1,14 @@
+BUFFER BASICS - SOLUTION
+========================
+
+| Goal                              | Command              |
+|-----------------------------------|----------------------|
+| List all buffers                  | :ls  or  :buffers    |
+| Go to next buffer                 | :bn  or  :bnext      |
+| Go to previous buffer             | :bp  or  :bprev      |
+| Go to buffer #3                   | :b3  or  :buffer 3   |
+| Go to buffer by name (partial)    | :b partial_name      |
+| Delete/close buffer               | :bd  or  :bdelete    |
+| Delete buffer (force)             | :bd!                 |
+
+Tip: :b with Tab completion lets you fuzzy-match buffer names

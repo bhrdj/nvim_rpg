@@ -1,0 +1,10 @@
+DELETE TO REGISTER
+==================
+
+Fill in the keys for each action:
+
+| Goal                              | Keys |
+|-----------------------------------|------|
+| Delete line into register d       | ___  |
+| Delete word into register w       | ___  |
+| Delete without affecting registers| ___  |

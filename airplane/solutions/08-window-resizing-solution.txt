@@ -1,0 +1,16 @@
+WINDOW RESIZING - SOLUTION
+==========================
+
+| Goal                         | Keys                          |
+|------------------------------|-------------------------------|
+| Increase height              | Ctrl-w +                      |
+| Decrease height              | Ctrl-w -                      |
+| Increase width               | Ctrl-w >                      |
+| Decrease width               | Ctrl-w <                      |
+| Equalize all windows         | Ctrl-w =                      |
+| Maximize current height      | Ctrl-w _                      |
+| Maximize current width       | Ctrl-w |                      |
+| Set height to 10 lines       | :resize 10  or  10 Ctrl-w _   |
+| Set width to 40 cols         | :vertical resize 40  or  40 Ctrl-w | |
+
+Tip: Use counts like 5 Ctrl-w + to resize by 5 lines at once

@@ -1,0 +1,25 @@
+SCENARIO: SEND CODE SNIPPET TO CLAUDE
+=====================================
+
+You want to paste code from your buffer into the Claude prompt.
+
+1. In buffer, go to start of function
+   ___
+
+2. Start visual line selection
+   ___
+
+3. Select to end of function (to closing brace)
+   ___
+
+4. Yank the selection
+   ___
+
+5. Switch to terminal window
+   ___
+
+6. Enter terminal insert mode at the prompt
+   ___
+
+7. Paste the code
+   ___

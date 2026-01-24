@@ -1,0 +1,25 @@
+RAPID FIRE: TERMINAL-BUFFER
+===========================
+
+Quick answers:
+
+1.  Exit terminal insert mode:      ___
+2.  Enter terminal insert mode:     ___
+3.  Go to window left:              ___
+4.  Go to window right:             ___
+5.  Yank line in terminal:          ___
+6.  Paste in terminal insert:       ___
+7.  Paste register 'a' in insert:   ___
+8.  Visual select in terminal:      ___
+9.  Yank inside quotes:             ___
+10. Search backwards:               ___
+11. Yank to register 'x':           ___
+12. Paste from register 'x':        ___
+13. Go to top of terminal output:   ___
+14. Go to bottom of terminal output:___
+15. Set mark 'm':                   ___
+16. Jump to mark 'm':               ___
+17. Yank 10 lines:                  ___
+18. Yank to end of line:            ___
+19. Open new line and paste:        ___
+20. Close terminal window:          ___

@@ -1,0 +1,25 @@
+RAPID FIRE QUIZ
+===============
+
+Answer as fast as you can:
+
+1.  Split vertical:           ___
+2.  Go to window right:       ___
+3.  List buffers:             ___
+4.  Next buffer:              ___
+5.  Exit terminal mode:       ___
+6.  Yank to clipboard:        ___
+7.  Paste from clipboard:     ___
+8.  Close window:             ___
+9.  Resize window taller:     ___
+10. Equalize windows:         ___
+11. Alternate buffer:         ___
+12. Delete buffer:            ___
+13. Open terminal:            ___
+14. View registers:           ___
+15. Paste register 'a':       ___
+16. Black hole delete:        ___
+17. Last yanked text register:___
+18. Go to buffer 2:           ___
+19. Close other windows:      ___
+20. Scroll half-page down:    ___

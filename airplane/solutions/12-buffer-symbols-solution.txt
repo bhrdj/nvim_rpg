@@ -1,0 +1,19 @@
+BUFFER SYMBOLS - SOLUTION
+=========================
+
+| Symbol | Meaning                              |
+|--------|--------------------------------------|
+| %      | Current buffer (in current window)   |
+| #      | Alternate buffer (last edited)       |
+| a      | Active (loaded and visible)          |
+| h      | Hidden (loaded but not visible)      |
+| +      | Modified (has unsaved changes)       |
+| -      | Cannot be modified (readonly)        |
+| =      | Readonly buffer                      |
+
+Example :ls output:
+  1  h   "file1.txt"         line 1
+  2 %a + "file2.txt"         line 42
+  3 #h   "file3.txt"         line 10
+
+This shows: file2 is current (%a), modified (+), file3 is alternate (#)

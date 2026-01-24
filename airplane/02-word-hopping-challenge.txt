@@ -1,0 +1,13 @@
+WORD HOPPING
+============
+
+Fill in the key for each motion:
+
+| Goal                             | Key |
+|----------------------------------|-----|
+| Next word start                  | ___ |
+| Previous word start              | ___ |
+| End of current word              | ___ |
+| Next WORD (whitespace-delimited) | ___ |
+| Previous WORD                    | ___ |
+| End of WORD                      | ___ |

@@ -1,0 +1,22 @@
+REGISTER TYPES - SOLUTION
+=========================
+
+| Purpose                    | Register |
+|----------------------------|----------|
+| Default (unnamed)          | ""       |
+| System clipboard           | "+       |
+| Primary selection (X11)    | "*       |
+| Last yanked text           | "0       |
+| Black hole (discard)       | "_       |
+| Last inserted text         | ".       |
+| Current filename           | "%       |
+| Alternate filename         | "#       |
+| Last command               | ":       |
+| Last search pattern        | "/       |
+| Small delete (< 1 line)    | "-       |
+
+Pro tips:
+- "0 always has your last yank (even after deletes)
+- "_ lets you delete without overwriting unnamed register
+- "+ for system clipboard (works in GUIs and some terminals)
+- "1-"9 hold your last 9 deletes (numbered delete registers)
