@@ -1,0 +1,11 @@
+LINE POSITIONS
+==============
+
+Fill in the key for each motion:
+
+| Goal                    | Key |
+|-------------------------|-----|
+| First column (col 0)    | ___ |
+| First non-blank char    | _^_ |
+| End of line             | _$_ |
+| Go to column 15         | ___ |

@@ -1,0 +1,12 @@
+jjjjjlkjhlkjhlkjh: 
+│                                                     │
+│                       ▐▛███▜▌                       │
+│                      ▝▜█████▛▘                      │
+│                        ▘▘ ▝▝                        │
+│     Opus 4.5 · Claude Max · steven@el.africa's      │
+│     Organization                                    │
+
+make it work
+
+/bin/bash: line 1: s: command not found
+
