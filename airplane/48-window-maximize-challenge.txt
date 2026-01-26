@@ -1,0 +1,18 @@
+WINDOW MAXIMIZE/RESTORE
+=======================
+
+Fill in the keys for each action:
+
+| Goal                              | Keys      |
+|-----------------------------------|-----------|
+| Maximize current window height    | Ctrl-w ___|
+| Maximize current window width     | Ctrl-w ___|
+| Maximize both (full screen)       | ___       |
+| Restore all windows to equal size | Ctrl-w ___|
+| Open current buffer in new tab    | ___       |
+| Close current tab (return)        | ___       |
+
+Bonus: What's the difference between maximizing with Ctrl-w
+and using :only?
+
+_______________________________________________

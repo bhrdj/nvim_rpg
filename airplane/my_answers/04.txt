@@ -1,0 +1,14 @@
+VERTICAL NAVIGATION
+===================
+
+Fill in the key(s) for each motion:
+
+| Goal              | Key(s)          |
+|-------------------|-----------------|
+| Top of file       | _gg             |
+| Bottom of file    | _G_             |
+| Go to line 42     | 42gg_42G (two ways) |
+| Half-page down    | CTRL+d          |
+| Half-page up      | CTRL+u          |
+| Full page down    | CTRL+f          |
+| Full page up      | CTRL+b          |

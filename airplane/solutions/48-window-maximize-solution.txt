@@ -1,0 +1,20 @@
+WINDOW MAXIMIZE/RESTORE - SOLUTION
+==================================
+
+| Goal                              | Keys                      |
+|-----------------------------------|---------------------------|
+| Maximize current window height    | Ctrl-w _                  |
+| Maximize current window width     | Ctrl-w |                  |
+| Maximize both (full screen)       | Ctrl-w _  then  Ctrl-w |  |
+| Restore all windows to equal size | Ctrl-w =                  |
+| Open current buffer in new tab    | :tab split                |
+| Close current tab (return)        | :tabclose  or  gt/:q      |
+
+Bonus Answer:
+- Ctrl-w _ and Ctrl-w | maximize the current window but keep
+  other windows visible (just very small, 1 line/column)
+- :only CLOSES all other windows entirely, leaving just the
+  current one. You'd need to reopen them with :split/:vsplit
+
+Tip: The tab method (:tab split) is great for temporary "zoom"
+because closing the tab returns you to your exact split layout.
